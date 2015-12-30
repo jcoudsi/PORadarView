@@ -26,8 +26,8 @@ s.source = { :git => "https://github.com/jcoudsi/PORadarView.git", :tag => "#{s.
 s.framework = "UIKit"
 
 # 8
-s.source_files = "RWPickFlavor/**/*.{swift}"
+s.source_files = "PORadarView/**/PORadarView.swift"
 
 # 9
-s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib}"
+s.resources = "PORadarView/**/*.{png,jpeg,jpg,storyboard,xib}"
 end
