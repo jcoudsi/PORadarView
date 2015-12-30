@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  PORadarView
+//  PODRadarViewExample
 //
 //  Created by Julien Coudsi on 30/12/2015.
-//  Copyright © 2015 Julien Coudsi. All rights reserved.
+//
 //
 
 import UIKit

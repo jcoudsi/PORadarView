@@ -7,17 +7,23 @@
 //
 
 import UIKit
+import PORadarView
 
 class MainViewController: UIViewController {
     
     var isAnimating:Bool = false
     var displayFromPairing:Bool = false
+    var radarView:PORadarView!
     
-    @IBOutlet weak var radarView: PORadarView!
+    @IBOutlet weak var radarContainerView: UIView!
     
     override func viewDidLoad() {
         
         super.viewDidLoad()
+        
+        self.radarView = PORadarView(frame: self.radarContainerView.bounds)
+        
+        self.radarContainerView.addSubview(self.radarView)
         
         self.radarView.setImage(UIImage(named:"new-item-example")!)
         

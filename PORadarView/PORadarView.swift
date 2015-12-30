@@ -16,16 +16,26 @@ let π:CGFloat = CGFloat(M_PI)
     private var lineCircleWidthInDegrees : CGFloat = 30
     private var radius:CGFloat = 0
     private var rectCenter:CGPoint = CGPoint(x: 0,y: 0)
-    
-    var isImageDisplayed = false
     private var imageView:UIImageView?
-    
-    var isDetecting = false
-    
-    var detectionItemColor:UIColor = UIColor.blueColor()
-    var contentCircleColor:UIColor = UIColor.greenColor()
-    
     private var detectionItemShapeLayer:CAShapeLayer?
+    
+    public var isImageDisplayed = false
+    public var isDetecting = false
+
+    public var detectionItemColor:UIColor = UIColor.blueColor()
+    public var contentCircleColor:UIColor = UIColor.greenColor()
+    
+    public required init?(coder aDecoder: NSCoder) {
+        
+        super.init(coder: aDecoder)
+    }
+    
+    override public required init(frame: CGRect) {
+        
+        super.init(frame: frame)
+        
+        self.backgroundColor = UIColor.clearColor()
+    }
     
     override public func drawRect(rect: CGRect) {
         self.drawContentCicle(rect)
@@ -46,7 +56,7 @@ let π:CGFloat = CGFloat(M_PI)
         contentCirclePath.fill()
     }
     
-    func createDetectionItemPathAtStartDegreesAngle(startDegreesAngle:CGFloat, endDegreesAngle:CGFloat) -> UIBezierPath {
+    private func createDetectionItemPathAtStartDegreesAngle(startDegreesAngle:CGFloat, endDegreesAngle:CGFloat) -> UIBezierPath {
 
         let detectionItemPath = UIBezierPath(arcCenter: self.rectCenter,
             radius: self.radius,
@@ -61,7 +71,7 @@ let π:CGFloat = CGFloat(M_PI)
     }
     
     
-    func setImage(image:UIImage) {
+    public func setImage(image:UIImage) {
         
         guard let imageView:UIImageView = UIImageView(image: image) else {
             return
@@ -77,7 +87,7 @@ let π:CGFloat = CGFloat(M_PI)
 
     }
     
-    func startAnimateDetection() {
+    public func startAnimateDetection() {
         
         if (detectionItemShapeLayer == nil) {
             
@@ -89,7 +99,7 @@ let π:CGFloat = CGFloat(M_PI)
         animate()
     }
     
-    func animate() {
+    public func animate() {
         
         let anim:CABasicAnimation = CABasicAnimation(keyPath: "path")
         anim.duration = 0.1
@@ -116,7 +126,7 @@ let π:CGFloat = CGFloat(M_PI)
         }
     }
 
-    func startDetection() {
+    public func startDetection() {
         
         if (!self.isDetecting) {
             startAnimateDetection()
@@ -126,7 +136,7 @@ let π:CGFloat = CGFloat(M_PI)
         self.setNeedsDisplay()
     }
     
-    func stopDetection() {
+    public func stopDetection() {
         
         if (self.isDetecting) {
             self.isDetecting = false
@@ -137,7 +147,7 @@ let π:CGFloat = CGFloat(M_PI)
     }
     
     
-    func objectDetected() {
+    public func objectDetected() {
         
         if (!self.isImageDisplayed) {
         
@@ -147,22 +157,22 @@ let π:CGFloat = CGFloat(M_PI)
         }
     }
     
-    func objectDetectedWithAutoStopDetection() {
+    public func objectDetectedWithAutoStopDetection() {
         self.objectDetected()
         self.stopDetection()
     }
     
-    func objectUndetectedWithAutoStopDetection() {
+    public func objectUndetectedWithAutoStopDetection() {
         self.objectUndetected()
         self.stopDetection()
     }
     
-    func objectUndetectedWithAutoRestartDetection() {
+    public func objectUndetectedWithAutoRestartDetection() {
         self.objectUndetected()
         self.startDetection()
     }
     
-    func objectUndetected() {
+    public func objectUndetected() {
         self.hideImageWithAnimation()
     }
     

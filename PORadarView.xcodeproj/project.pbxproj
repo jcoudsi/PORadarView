@@ -9,12 +9,7 @@
 /* Begin PBXBuildFile section */
 		6DD86C9C1C346D7A003EDB19 /* PORadarView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD86C911C346D7A003EDB19 /* PORadarView.framework */; };
 		6DD86CA11C346D7A003EDB19 /* PORadarViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD86CA01C346D7A003EDB19 /* PORadarViewTests.swift */; };
-		6DD86CAC1C346FF0003EDB19 /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD86CAB1C346FF0003EDB19 /* ColorHelper.swift */; };
-		6DD86CAF1C346FF6003EDB19 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD86CAD1C346FF6003EDB19 /* MainViewController.swift */; };
 		6DD86CB01C346FF6003EDB19 /* PORadarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD86CAE1C346FF6003EDB19 /* PORadarView.swift */; };
-		6DD86CB21C346FFC003EDB19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DD86CB11C346FFC003EDB19 /* Main.storyboard */; };
-		6DD86CB41C347005003EDB19 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DD86CB31C347005003EDB19 /* Images.xcassets */; };
-		6DD86CB91C3470C6003EDB19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD86CB81C3470C6003EDB19 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,12 +28,7 @@
 		6DD86C9B1C346D7A003EDB19 /* PORadarViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PORadarViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DD86CA01C346D7A003EDB19 /* PORadarViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PORadarViewTests.swift; sourceTree = "<group>"; };
 		6DD86CA21C346D7A003EDB19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6DD86CAB1C346FF0003EDB19 /* ColorHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
-		6DD86CAD1C346FF6003EDB19 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		6DD86CAE1C346FF6003EDB19 /* PORadarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PORadarView.swift; sourceTree = "<group>"; };
-		6DD86CB11C346FFC003EDB19 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		6DD86CB31C347005003EDB19 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6DD86CB81C3470C6003EDB19 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +71,7 @@
 		6DD86C931C346D7A003EDB19 /* PORadarView */ = {
 			isa = PBXGroup;
 			children = (
-				6DD86CB71C34703B003EDB19 /* Resources */,
-				6DD86CB61C347029003EDB19 /* Views */,
-				6DD86CB51C34701F003EDB19 /* Helpers */,
-				6DD86CB81C3470C6003EDB19 /* AppDelegate.swift */,
-				6DD86CAD1C346FF6003EDB19 /* MainViewController.swift */,
+				6DD86CAE1C346FF6003EDB19 /* PORadarView.swift */,
 				6DD86C961C346D7A003EDB19 /* Info.plist */,
 			);
 			path = PORadarView;
@@ -98,31 +84,6 @@
 				6DD86CA21C346D7A003EDB19 /* Info.plist */,
 			);
 			path = PORadarViewTests;
-			sourceTree = "<group>";
-		};
-		6DD86CB51C34701F003EDB19 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				6DD86CAB1C346FF0003EDB19 /* ColorHelper.swift */,
-			);
-			name = Helpers;
-			sourceTree = "<group>";
-		};
-		6DD86CB61C347029003EDB19 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				6DD86CAE1C346FF6003EDB19 /* PORadarView.swift */,
-				6DD86CB11C346FFC003EDB19 /* Main.storyboard */,
-			);
-			name = Views;
-			sourceTree = "<group>";
-		};
-		6DD86CB71C34703B003EDB19 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				6DD86CB31C347005003EDB19 /* Images.xcassets */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,8 +176,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DD86CB41C347005003EDB19 /* Images.xcassets in Resources */,
-				6DD86CB21C346FFC003EDB19 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,10 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DD86CB91C3470C6003EDB19 /* AppDelegate.swift in Sources */,
-				6DD86CAC1C346FF0003EDB19 /* ColorHelper.swift in Sources */,
 				6DD86CB01C346FF6003EDB19 /* PORadarView.swift in Sources */,
-				6DD86CAF1C346FF6003EDB19 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
