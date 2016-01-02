@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:PODRadarView Example.xcodeproj">
+      location = "self:PORadarViewExample.xcodeproj">
    </FileRef>
 </Workspace>

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6DDBEB1D1C34839E0000CAA0"
-               BuildableName = "PODRadarViewExample.app"
-               BlueprintName = "PODRadarViewExample"
-               ReferencedContainer = "container:PODRadarView Example.xcodeproj">
+               BlueprintIdentifier = "6DD86C901C346D7A003EDB19"
+               BuildableName = "PORadarView.framework"
+               BlueprintName = "PORadarView"
+               ReferencedContainer = "container:../PORadarView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6DD86C901C346D7A003EDB19"
-               BuildableName = "PORadarView.framework"
-               BlueprintName = "PORadarView"
-               ReferencedContainer = "container:../PORadarView.xcodeproj">
+               BlueprintIdentifier = "6DF547DB1C384AFC002FE409"
+               BuildableName = "PORadarViewExample.app"
+               BlueprintName = "PORadarViewExample"
+               ReferencedContainer = "container:PORadarViewExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,30 +46,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6DDBEB311C34839E0000CAA0"
-               BuildableName = "PODRadarViewExampleTests.xctest"
-               BlueprintName = "PODRadarViewExampleTests"
-               ReferencedContainer = "container:PODRadarView Example.xcodeproj">
+               BlueprintIdentifier = "6DF547EF1C384AFC002FE409"
+               BuildableName = "PORadarViewExampleTests.xctest"
+               BlueprintName = "PORadarViewExampleTests"
+               ReferencedContainer = "container:PORadarViewExample.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6DDBEB3C1C34839E0000CAA0"
-               BuildableName = "PODRadarViewExampleUITests.xctest"
-               BlueprintName = "PODRadarViewExampleUITests"
-               ReferencedContainer = "container:PODRadarView Example.xcodeproj">
+               BlueprintIdentifier = "6DF547FA1C384AFC002FE409"
+               BuildableName = "PORadarViewExampleUITests.xctest"
+               BlueprintName = "PORadarViewExampleUITests"
+               ReferencedContainer = "container:PORadarViewExample.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6DDBEB1D1C34839E0000CAA0"
-            BuildableName = "PODRadarViewExample.app"
-            BlueprintName = "PODRadarViewExample"
-            ReferencedContainer = "container:PODRadarView Example.xcodeproj">
+            BlueprintIdentifier = "6DF547DB1C384AFC002FE409"
+            BuildableName = "PORadarViewExample.app"
+            BlueprintName = "PORadarViewExample"
+            ReferencedContainer = "container:PORadarViewExample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -89,10 +89,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6DDBEB1D1C34839E0000CAA0"
-            BuildableName = "PODRadarViewExample.app"
-            BlueprintName = "PODRadarViewExample"
-            ReferencedContainer = "container:PODRadarView Example.xcodeproj">
+            BlueprintIdentifier = "6DF547DB1C384AFC002FE409"
+            BuildableName = "PORadarViewExample.app"
+            BlueprintName = "PORadarViewExample"
+            ReferencedContainer = "container:PORadarViewExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -108,10 +108,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6DDBEB1D1C34839E0000CAA0"
-            BuildableName = "PODRadarViewExample.app"
-            BlueprintName = "PODRadarViewExample"
-            ReferencedContainer = "container:PODRadarView Example.xcodeproj">
+            BlueprintIdentifier = "6DF547DB1C384AFC002FE409"
+            BuildableName = "PORadarViewExample.app"
+            BlueprintName = "PORadarViewExample"
+            ReferencedContainer = "container:PORadarViewExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -1,15 +1,15 @@
 //
-//  PODRadarViewExampleTests.swift
-//  PODRadarViewExampleTests
+//  PORadarViewExampleTests.swift
+//  PORadarViewExampleTests
 //
-//  Created by Julien Coudsi on 30/12/2015.
+//  Created by Julien Coudsi on 02/01/2016.
 //
 //
 
 import XCTest
-@testable import PODRadarViewExample
+@testable import PORadarViewExample
 
-class PODRadarViewExampleTests: XCTestCase {
+class PORadarViewExampleTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

@@ -7,64 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6DDBEB221C34839E0000CAA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDBEB211C34839E0000CAA0 /* AppDelegate.swift */; };
-		6DDBEB291C34839E0000CAA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DDBEB281C34839E0000CAA0 /* Images.xcassets */; };
-		6DDBEB371C34839E0000CAA0 /* PODRadarViewExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDBEB361C34839E0000CAA0 /* PODRadarViewExampleTests.swift */; };
-		6DDBEB421C34839E0000CAA0 /* PODRadarViewExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDBEB411C34839E0000CAA0 /* PODRadarViewExampleUITests.swift */; };
-		6DDBEB4E1C3483D70000CAA0 /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDBEB4D1C3483D70000CAA0 /* ColorHelper.swift */; };
-		6DDBEB511C3483EB0000CAA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DDBEB4F1C3483EB0000CAA0 /* Main.storyboard */; };
-		6DDBEB521C3483EB0000CAA0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDBEB501C3483EB0000CAA0 /* MainViewController.swift */; };
+		6DF547E01C384AFC002FE409 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF547DF1C384AFC002FE409 /* AppDelegate.swift */; };
+		6DF547E21C384AFC002FE409 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF547E11C384AFC002FE409 /* ViewController.swift */; };
+		6DF547E71C384AFC002FE409 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DF547E61C384AFC002FE409 /* Images.xcassets */; };
+		6DF547F51C384AFC002FE409 /* PORadarViewExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF547F41C384AFC002FE409 /* PORadarViewExampleTests.swift */; };
+		6DF548001C384AFC002FE409 /* PORadarViewExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF547FF1C384AFC002FE409 /* PORadarViewExampleUITests.swift */; };
+		6DF5480E1C384B39002FE409 /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF5480B1C384B39002FE409 /* ColorHelper.swift */; };
+		6DF5480F1C384B39002FE409 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF5480C1C384B39002FE409 /* Main.storyboard */; };
+		6DF548101C384B39002FE409 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF5480D1C384B39002FE409 /* MainViewController.swift */; };
+		6DF548161C384C0E002FE409 /* PORadarView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF548151C384C0E002FE409 /* PORadarView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6DDBEB331C34839E0000CAA0 /* PBXContainerItemProxy */ = {
+		6DF547F11C384AFC002FE409 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6DDBEB141C3483790000CAA0 /* Project object */;
+			containerPortal = 6DF547D21C384AA8002FE409 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6DDBEB1D1C34839E0000CAA0;
-			remoteInfo = PODRadarViewExample;
+			remoteGlobalIDString = 6DF547DB1C384AFC002FE409;
+			remoteInfo = PORadarViewExample;
 		};
-		6DDBEB3E1C34839E0000CAA0 /* PBXContainerItemProxy */ = {
+		6DF547FC1C384AFC002FE409 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6DDBEB141C3483790000CAA0 /* Project object */;
+			containerPortal = 6DF547D21C384AA8002FE409 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6DDBEB1D1C34839E0000CAA0;
-			remoteInfo = PODRadarViewExample;
+			remoteGlobalIDString = 6DF547DB1C384AFC002FE409;
+			remoteInfo = PORadarViewExample;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6DDBEB1E1C34839E0000CAA0 /* PODRadarViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PODRadarViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DDBEB211C34839E0000CAA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6DDBEB281C34839E0000CAA0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6DDBEB2D1C34839E0000CAA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6DDBEB321C34839E0000CAA0 /* PODRadarViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PODRadarViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DDBEB361C34839E0000CAA0 /* PODRadarViewExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PODRadarViewExampleTests.swift; sourceTree = "<group>"; };
-		6DDBEB381C34839E0000CAA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6DDBEB3D1C34839E0000CAA0 /* PODRadarViewExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PODRadarViewExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DDBEB411C34839E0000CAA0 /* PODRadarViewExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PODRadarViewExampleUITests.swift; sourceTree = "<group>"; };
-		6DDBEB431C34839E0000CAA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6DDBEB4D1C3483D70000CAA0 /* ColorHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
-		6DDBEB4F1C3483EB0000CAA0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		6DDBEB501C3483EB0000CAA0 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6DF547DC1C384AFC002FE409 /* PORadarViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PORadarViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DF547DF1C384AFC002FE409 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6DF547E11C384AFC002FE409 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6DF547E61C384AFC002FE409 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6DF547EB1C384AFC002FE409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DF547F01C384AFC002FE409 /* PORadarViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PORadarViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DF547F41C384AFC002FE409 /* PORadarViewExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PORadarViewExampleTests.swift; sourceTree = "<group>"; };
+		6DF547F61C384AFC002FE409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DF547FB1C384AFC002FE409 /* PORadarViewExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PORadarViewExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DF547FF1C384AFC002FE409 /* PORadarViewExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PORadarViewExampleUITests.swift; sourceTree = "<group>"; };
+		6DF548011C384AFC002FE409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DF5480B1C384B39002FE409 /* ColorHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
+		6DF5480C1C384B39002FE409 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6DF5480D1C384B39002FE409 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6DF548151C384C0E002FE409 /* PORadarView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PORadarView.framework; path = "../build/Debug-iphoneos/PORadarView.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6DDBEB1B1C34839E0000CAA0 /* Frameworks */ = {
+		6DF547D91C384AFC002FE409 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DF548161C384C0E002FE409 /* PORadarView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DF547ED1C384AFC002FE409 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6DDBEB2F1C34839E0000CAA0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6DDBEB3A1C34839E0000CAA0 /* Frameworks */ = {
+		6DF547F81C384AFC002FE409 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,136 +79,138 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6DDBEB131C3483790000CAA0 = {
+		6DF547D11C384AA8002FE409 = {
 			isa = PBXGroup;
 			children = (
-				6DDBEB201C34839E0000CAA0 /* PODRadarViewExample */,
-				6DDBEB351C34839E0000CAA0 /* PODRadarViewExampleTests */,
-				6DDBEB401C34839E0000CAA0 /* PODRadarViewExampleUITests */,
-				6DDBEB1F1C34839E0000CAA0 /* Products */,
+				6DF548151C384C0E002FE409 /* PORadarView.framework */,
+				6DF547DE1C384AFC002FE409 /* PORadarViewExample */,
+				6DF547F31C384AFC002FE409 /* PORadarViewExampleTests */,
+				6DF547FE1C384AFC002FE409 /* PORadarViewExampleUITests */,
+				6DF547DD1C384AFC002FE409 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6DDBEB1F1C34839E0000CAA0 /* Products */ = {
+		6DF547DD1C384AFC002FE409 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6DDBEB1E1C34839E0000CAA0 /* PODRadarViewExample.app */,
-				6DDBEB321C34839E0000CAA0 /* PODRadarViewExampleTests.xctest */,
-				6DDBEB3D1C34839E0000CAA0 /* PODRadarViewExampleUITests.xctest */,
+				6DF547DC1C384AFC002FE409 /* PORadarViewExample.app */,
+				6DF547F01C384AFC002FE409 /* PORadarViewExampleTests.xctest */,
+				6DF547FB1C384AFC002FE409 /* PORadarViewExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6DDBEB201C34839E0000CAA0 /* PODRadarViewExample */ = {
+		6DF547DE1C384AFC002FE409 /* PORadarViewExample */ = {
 			isa = PBXGroup;
 			children = (
-				6DDBEB4F1C3483EB0000CAA0 /* Main.storyboard */,
-				6DDBEB501C3483EB0000CAA0 /* MainViewController.swift */,
-				6DDBEB4D1C3483D70000CAA0 /* ColorHelper.swift */,
-				6DDBEB211C34839E0000CAA0 /* AppDelegate.swift */,
-				6DDBEB281C34839E0000CAA0 /* Images.xcassets */,
-				6DDBEB2D1C34839E0000CAA0 /* Info.plist */,
+				6DF5480B1C384B39002FE409 /* ColorHelper.swift */,
+				6DF5480C1C384B39002FE409 /* Main.storyboard */,
+				6DF5480D1C384B39002FE409 /* MainViewController.swift */,
+				6DF547DF1C384AFC002FE409 /* AppDelegate.swift */,
+				6DF547E11C384AFC002FE409 /* ViewController.swift */,
+				6DF547E61C384AFC002FE409 /* Images.xcassets */,
+				6DF547EB1C384AFC002FE409 /* Info.plist */,
 			);
-			path = PODRadarViewExample;
+			path = PORadarViewExample;
 			sourceTree = "<group>";
 		};
-		6DDBEB351C34839E0000CAA0 /* PODRadarViewExampleTests */ = {
+		6DF547F31C384AFC002FE409 /* PORadarViewExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				6DDBEB361C34839E0000CAA0 /* PODRadarViewExampleTests.swift */,
-				6DDBEB381C34839E0000CAA0 /* Info.plist */,
+				6DF547F41C384AFC002FE409 /* PORadarViewExampleTests.swift */,
+				6DF547F61C384AFC002FE409 /* Info.plist */,
 			);
-			path = PODRadarViewExampleTests;
+			path = PORadarViewExampleTests;
 			sourceTree = "<group>";
 		};
-		6DDBEB401C34839E0000CAA0 /* PODRadarViewExampleUITests */ = {
+		6DF547FE1C384AFC002FE409 /* PORadarViewExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				6DDBEB411C34839E0000CAA0 /* PODRadarViewExampleUITests.swift */,
-				6DDBEB431C34839E0000CAA0 /* Info.plist */,
+				6DF547FF1C384AFC002FE409 /* PORadarViewExampleUITests.swift */,
+				6DF548011C384AFC002FE409 /* Info.plist */,
 			);
-			path = PODRadarViewExampleUITests;
+			path = PORadarViewExampleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6DDBEB1D1C34839E0000CAA0 /* PODRadarViewExample */ = {
+		6DF547DB1C384AFC002FE409 /* PORadarViewExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6DDBEB4A1C34839E0000CAA0 /* Build configuration list for PBXNativeTarget "PODRadarViewExample" */;
+			buildConfigurationList = 6DF548081C384AFC002FE409 /* Build configuration list for PBXNativeTarget "PORadarViewExample" */;
 			buildPhases = (
-				6DDBEB1A1C34839E0000CAA0 /* Sources */,
-				6DDBEB1B1C34839E0000CAA0 /* Frameworks */,
-				6DDBEB1C1C34839E0000CAA0 /* Resources */,
+				6DF547D81C384AFC002FE409 /* Sources */,
+				6DF547D91C384AFC002FE409 /* Frameworks */,
+				6DF547DA1C384AFC002FE409 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PODRadarViewExample;
-			productName = PODRadarViewExample;
-			productReference = 6DDBEB1E1C34839E0000CAA0 /* PODRadarViewExample.app */;
+			name = PORadarViewExample;
+			productName = PORadarViewExample;
+			productReference = 6DF547DC1C384AFC002FE409 /* PORadarViewExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6DDBEB311C34839E0000CAA0 /* PODRadarViewExampleTests */ = {
+		6DF547EF1C384AFC002FE409 /* PORadarViewExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6DDBEB4B1C34839E0000CAA0 /* Build configuration list for PBXNativeTarget "PODRadarViewExampleTests" */;
+			buildConfigurationList = 6DF548091C384AFC002FE409 /* Build configuration list for PBXNativeTarget "PORadarViewExampleTests" */;
 			buildPhases = (
-				6DDBEB2E1C34839E0000CAA0 /* Sources */,
-				6DDBEB2F1C34839E0000CAA0 /* Frameworks */,
-				6DDBEB301C34839E0000CAA0 /* Resources */,
+				6DF547EC1C384AFC002FE409 /* Sources */,
+				6DF547ED1C384AFC002FE409 /* Frameworks */,
+				6DF547EE1C384AFC002FE409 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6DDBEB341C34839E0000CAA0 /* PBXTargetDependency */,
+				6DF547F21C384AFC002FE409 /* PBXTargetDependency */,
 			);
-			name = PODRadarViewExampleTests;
-			productName = PODRadarViewExampleTests;
-			productReference = 6DDBEB321C34839E0000CAA0 /* PODRadarViewExampleTests.xctest */;
+			name = PORadarViewExampleTests;
+			productName = PORadarViewExampleTests;
+			productReference = 6DF547F01C384AFC002FE409 /* PORadarViewExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6DDBEB3C1C34839E0000CAA0 /* PODRadarViewExampleUITests */ = {
+		6DF547FA1C384AFC002FE409 /* PORadarViewExampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6DDBEB4C1C34839E0000CAA0 /* Build configuration list for PBXNativeTarget "PODRadarViewExampleUITests" */;
+			buildConfigurationList = 6DF5480A1C384AFC002FE409 /* Build configuration list for PBXNativeTarget "PORadarViewExampleUITests" */;
 			buildPhases = (
-				6DDBEB391C34839E0000CAA0 /* Sources */,
-				6DDBEB3A1C34839E0000CAA0 /* Frameworks */,
-				6DDBEB3B1C34839E0000CAA0 /* Resources */,
+				6DF547F71C384AFC002FE409 /* Sources */,
+				6DF547F81C384AFC002FE409 /* Frameworks */,
+				6DF547F91C384AFC002FE409 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6DDBEB3F1C34839E0000CAA0 /* PBXTargetDependency */,
+				6DF547FD1C384AFC002FE409 /* PBXTargetDependency */,
 			);
-			name = PODRadarViewExampleUITests;
-			productName = PODRadarViewExampleUITests;
-			productReference = 6DDBEB3D1C34839E0000CAA0 /* PODRadarViewExampleUITests.xctest */;
+			name = PORadarViewExampleUITests;
+			productName = PORadarViewExampleUITests;
+			productReference = 6DF547FB1C384AFC002FE409 /* PORadarViewExampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6DDBEB141C3483790000CAA0 /* Project object */ = {
+		6DF547D21C384AA8002FE409 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				TargetAttributes = {
-					6DDBEB1D1C34839E0000CAA0 = {
+					6DF547DB1C384AFC002FE409 = {
 						CreatedOnToolsVersion = 7.2;
 					};
-					6DDBEB311C34839E0000CAA0 = {
+					6DF547EF1C384AFC002FE409 = {
 						CreatedOnToolsVersion = 7.2;
-						TestTargetID = 6DDBEB1D1C34839E0000CAA0;
+						TestTargetID = 6DF547DB1C384AFC002FE409;
 					};
-					6DDBEB3C1C34839E0000CAA0 = {
+					6DF547FA1C384AFC002FE409 = {
 						CreatedOnToolsVersion = 7.2;
-						TestTargetID = 6DDBEB1D1C34839E0000CAA0;
+						TestTargetID = 6DF547DB1C384AFC002FE409;
 					};
 				};
 			};
-			buildConfigurationList = 6DDBEB171C3483790000CAA0 /* Build configuration list for PBXProject "PODRadarView Example" */;
+			buildConfigurationList = 6DF547D51C384AA8002FE409 /* Build configuration list for PBXProject "PORadarViewExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -211,36 +218,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 6DDBEB131C3483790000CAA0;
-			productRefGroup = 6DDBEB1F1C34839E0000CAA0 /* Products */;
+			mainGroup = 6DF547D11C384AA8002FE409;
+			productRefGroup = 6DF547DD1C384AFC002FE409 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6DDBEB1D1C34839E0000CAA0 /* PODRadarViewExample */,
-				6DDBEB311C34839E0000CAA0 /* PODRadarViewExampleTests */,
-				6DDBEB3C1C34839E0000CAA0 /* PODRadarViewExampleUITests */,
+				6DF547DB1C384AFC002FE409 /* PORadarViewExample */,
+				6DF547EF1C384AFC002FE409 /* PORadarViewExampleTests */,
+				6DF547FA1C384AFC002FE409 /* PORadarViewExampleUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6DDBEB1C1C34839E0000CAA0 /* Resources */ = {
+		6DF547DA1C384AFC002FE409 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DDBEB291C34839E0000CAA0 /* Images.xcassets in Resources */,
-				6DDBEB511C3483EB0000CAA0 /* Main.storyboard in Resources */,
+				6DF547E71C384AFC002FE409 /* Images.xcassets in Resources */,
+				6DF5480F1C384B39002FE409 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6DDBEB301C34839E0000CAA0 /* Resources */ = {
+		6DF547EE1C384AFC002FE409 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6DDBEB3B1C34839E0000CAA0 /* Resources */ = {
+		6DF547F91C384AFC002FE409 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -250,63 +257,62 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6DDBEB1A1C34839E0000CAA0 /* Sources */ = {
+		6DF547D81C384AFC002FE409 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DDBEB4E1C3483D70000CAA0 /* ColorHelper.swift in Sources */,
-				6DDBEB221C34839E0000CAA0 /* AppDelegate.swift in Sources */,
-				6DDBEB521C3483EB0000CAA0 /* MainViewController.swift in Sources */,
+				6DF547E21C384AFC002FE409 /* ViewController.swift in Sources */,
+				6DF5480E1C384B39002FE409 /* ColorHelper.swift in Sources */,
+				6DF547E01C384AFC002FE409 /* AppDelegate.swift in Sources */,
+				6DF548101C384B39002FE409 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6DDBEB2E1C34839E0000CAA0 /* Sources */ = {
+		6DF547EC1C384AFC002FE409 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DDBEB371C34839E0000CAA0 /* PODRadarViewExampleTests.swift in Sources */,
+				6DF547F51C384AFC002FE409 /* PORadarViewExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6DDBEB391C34839E0000CAA0 /* Sources */ = {
+		6DF547F71C384AFC002FE409 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DDBEB421C34839E0000CAA0 /* PODRadarViewExampleUITests.swift in Sources */,
+				6DF548001C384AFC002FE409 /* PORadarViewExampleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6DDBEB341C34839E0000CAA0 /* PBXTargetDependency */ = {
+		6DF547F21C384AFC002FE409 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6DDBEB1D1C34839E0000CAA0 /* PODRadarViewExample */;
-			targetProxy = 6DDBEB331C34839E0000CAA0 /* PBXContainerItemProxy */;
+			target = 6DF547DB1C384AFC002FE409 /* PORadarViewExample */;
+			targetProxy = 6DF547F11C384AFC002FE409 /* PBXContainerItemProxy */;
 		};
-		6DDBEB3F1C34839E0000CAA0 /* PBXTargetDependency */ = {
+		6DF547FD1C384AFC002FE409 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6DDBEB1D1C34839E0000CAA0 /* PODRadarViewExample */;
-			targetProxy = 6DDBEB3E1C34839E0000CAA0 /* PBXContainerItemProxy */;
+			target = 6DF547DB1C384AFC002FE409 /* PORadarViewExample */;
+			targetProxy = 6DF547FC1C384AFC002FE409 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		6DDBEB181C3483790000CAA0 /* Debug */ = {
+		6DF547D61C384AA8002FE409 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Debug;
 		};
-		6DDBEB191C3483790000CAA0 /* Release */ = {
+		6DF547D71C384AA8002FE409 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Release;
 		};
-		6DDBEB441C34839E0000CAA0 /* Debug */ = {
+		6DF548021C384AFC002FE409 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -343,12 +349,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = PODRadarViewExample/Info.plist;
+				INFOPLIST_FILE = PORadarViewExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pexou.PODRadarViewExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pexou.PORadarViewExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -356,7 +362,7 @@
 			};
 			name = Debug;
 		};
-		6DDBEB451C34839E0000CAA0 /* Release */ = {
+		6DF548031C384AFC002FE409 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -387,11 +393,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = PODRadarViewExample/Info.plist;
+				INFOPLIST_FILE = PORadarViewExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pexou.PODRadarViewExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pexou.PORadarViewExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -399,7 +405,7 @@
 			};
 			name = Release;
 		};
-		6DDBEB461C34839E0000CAA0 /* Debug */ = {
+		6DF548041C384AFC002FE409 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -436,19 +442,19 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = PODRadarViewExampleTests/Info.plist;
+				INFOPLIST_FILE = PORadarViewExampleTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pexou.PODRadarViewExampleTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pexou.PORadarViewExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PODRadarViewExample.app/PODRadarViewExample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PORadarViewExample.app/PORadarViewExample";
 			};
 			name = Debug;
 		};
-		6DDBEB471C34839E0000CAA0 /* Release */ = {
+		6DF548051C384AFC002FE409 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -479,19 +485,19 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = PODRadarViewExampleTests/Info.plist;
+				INFOPLIST_FILE = PORadarViewExampleTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pexou.PODRadarViewExampleTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pexou.PORadarViewExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PODRadarViewExample.app/PODRadarViewExample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PORadarViewExample.app/PORadarViewExample";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		6DDBEB481C34839E0000CAA0 /* Debug */ = {
+		6DF548061C384AFC002FE409 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -527,20 +533,20 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = PODRadarViewExampleUITests/Info.plist;
+				INFOPLIST_FILE = PORadarViewExampleUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pexou.PODRadarViewExampleUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pexou.PORadarViewExampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				TEST_TARGET_NAME = PODRadarViewExample;
+				TEST_TARGET_NAME = PORadarViewExample;
 				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
 		};
-		6DDBEB491C34839E0000CAA0 /* Release */ = {
+		6DF548071C384AFC002FE409 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -570,14 +576,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = PODRadarViewExampleUITests/Info.plist;
+				INFOPLIST_FILE = PORadarViewExampleUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pexou.PODRadarViewExampleUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pexou.PORadarViewExampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				TEST_TARGET_NAME = PODRadarViewExample;
+				TEST_TARGET_NAME = PORadarViewExample;
 				USES_XCTRUNNER = YES;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -586,43 +592,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6DDBEB171C3483790000CAA0 /* Build configuration list for PBXProject "PODRadarView Example" */ = {
+		6DF547D51C384AA8002FE409 /* Build configuration list for PBXProject "PORadarViewExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6DDBEB181C3483790000CAA0 /* Debug */,
-				6DDBEB191C3483790000CAA0 /* Release */,
+				6DF547D61C384AA8002FE409 /* Debug */,
+				6DF547D71C384AA8002FE409 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6DDBEB4A1C34839E0000CAA0 /* Build configuration list for PBXNativeTarget "PODRadarViewExample" */ = {
+		6DF548081C384AFC002FE409 /* Build configuration list for PBXNativeTarget "PORadarViewExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6DDBEB441C34839E0000CAA0 /* Debug */,
-				6DDBEB451C34839E0000CAA0 /* Release */,
+				6DF548021C384AFC002FE409 /* Debug */,
+				6DF548031C384AFC002FE409 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		6DDBEB4B1C34839E0000CAA0 /* Build configuration list for PBXNativeTarget "PODRadarViewExampleTests" */ = {
+		6DF548091C384AFC002FE409 /* Build configuration list for PBXNativeTarget "PORadarViewExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6DDBEB461C34839E0000CAA0 /* Debug */,
-				6DDBEB471C34839E0000CAA0 /* Release */,
+				6DF548041C384AFC002FE409 /* Debug */,
+				6DF548051C384AFC002FE409 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		6DDBEB4C1C34839E0000CAA0 /* Build configuration list for PBXNativeTarget "PODRadarViewExampleUITests" */ = {
+		6DF5480A1C384AFC002FE409 /* Build configuration list for PBXNativeTarget "PORadarViewExampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6DDBEB481C34839E0000CAA0 /* Debug */,
-				6DDBEB491C34839E0000CAA0 /* Release */,
+				6DF548061C384AFC002FE409 /* Debug */,
+				6DF548071C384AFC002FE409 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6DDBEB141C3483790000CAA0 /* Project object */;
+	rootObject = 6DF547D21C384AA8002FE409 /* Project object */;
 }

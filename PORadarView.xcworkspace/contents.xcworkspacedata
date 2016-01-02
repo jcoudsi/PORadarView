@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:PORadarView.xcodeproj">
+      location = "group:PORadarViewExample/PORadarViewExample.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:PODRadarView Example/PODRadarView Example.xcodeproj">
+      location = "group:PORadarView.xcodeproj">
    </FileRef>
 </Workspace>
