@@ -1,6 +1,6 @@
 //
-//  RadarView.swift
-//  ios-radar-view
+//  PORadarView.swift
+//  PORadarView
 //
 //  Created by Julien Coudsi on 16/12/2015.
 //  Copyright (c) 2015 Julien Coudsi. All rights reserved.
