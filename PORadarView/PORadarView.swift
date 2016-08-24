@@ -15,7 +15,7 @@ let π: CGFloat = CGFloat(M_PI)
     private var lineCircleStartAngleInDegrees: CGFloat = 0
     private var lineCircleWidthInDegrees: CGFloat = 30
     private var radius: CGFloat = 0
-    private var rectCenter: CGPoint!
+    private var rectCenter: CGPoint = CGPoint.zero
     private var imageView: UIImageView?
     private var detectionItemShapeLayer: CAShapeLayer!
 
