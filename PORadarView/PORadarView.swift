@@ -19,8 +19,8 @@ let π: CGFloat = CGFloat(M_PI)
     private var imageView: UIImageView?
     private var detectionItemShapeLayer: CAShapeLayer!
 
-    public var isImageDisplayed = false
-    public var isDetecting = false
+    private var isImageDisplayed = false
+    private var isDetecting = false
 
     public var detectionItemColor: UIColor = UIColor.blueColor() {
         didSet {
@@ -132,30 +132,37 @@ let π: CGFloat = CGFloat(M_PI)
         animateRotation.additive = true
         animateRotation.repeatCount = Float.infinity
         animateRotation.duration = 5
+        animateRotation.delegate = self
 
         self.detectionItemShapeLayer.addAnimation(animateRotation, forKey: "animateRadar")
     }
 
+    public override func animationDidStart(anim: CAAnimation) {
+        self.isDetecting = true
+    }
+
+    public override func animationDidStop(anim: CAAnimation, finished flag: Bool) {
+        self.isDetecting = false
+    }
+
     //#MARK: - Detection management
 
-    public func startDetection() {
+    public func startDetectionIfNeeded() {
 
         guard !self.isDetecting else {
             return
         }
 
         self.startAnimateDetection()
-        self.isDetecting = true
 
     }
 
-    public func stopDetection() {
+    public func stopDetectionIfNeeded() {
 
         guard self.isDetecting else {
             return
         }
 
-        self.isDetecting = false
         self.detectionItemColor = self.contentCircleColor
         self.detectionItemShapeLayer?.removeAllAnimations()
         self.detectionItemShapeLayer.removeFromSuperlayer()
@@ -163,17 +170,17 @@ let π: CGFloat = CGFloat(M_PI)
 
     public func objectDetectedWithAutoStopDetection() {
         self.objectDetected()
-        self.stopDetection()
+        self.stopDetectionIfNeeded()
     }
 
     public func objectUndetectedWithAutoStopDetection() {
         self.objectUndetected()
-        self.stopDetection()
+        self.stopDetectionIfNeeded()
     }
 
     public func objectUndetectedWithAutoRestartDetection() {
         self.objectUndetected()
-        self.startDetection()
+        self.startDetectionIfNeeded()
     }
 
     public func objectDetected() {

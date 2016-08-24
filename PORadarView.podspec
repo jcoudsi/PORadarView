@@ -8,7 +8,7 @@ s.summary = "PORadarView provides a radar view which can be used to materialize 
 s.requires_arc = true
 
 # 2
-s.version = "1.0.2"
+s.version = "1.0.3"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }

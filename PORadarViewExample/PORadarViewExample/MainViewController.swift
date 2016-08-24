@@ -49,7 +49,7 @@ class MainViewController: UIViewController {
         self.radarView.detectionItemColor = ColorHelper.getMediumRedColor()
 
         self.radarView.objectDetected()
-        self.radarView.startDetection()
+        self.radarView.startDetectionIfNeeded()
     }
 
     @IBAction func configureForExample3(sender: AnyObject) {
