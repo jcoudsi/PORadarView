@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66396B921D8C48FE0079C50C /* PORadarView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66396B8E1D8C48DE0079C50C /* PORadarView.framework */; };
+		66396B931D8C48FE0079C50C /* PORadarView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 66396B8E1D8C48DE0079C50C /* PORadarView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6DF547E01C384AFC002FE409 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF547DF1C384AFC002FE409 /* AppDelegate.swift */; };
 		6DF547E71C384AFC002FE409 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DF547E61C384AFC002FE409 /* Images.xcassets */; };
 		6DF547F51C384AFC002FE409 /* PORadarViewExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF547F41C384AFC002FE409 /* PORadarViewExampleTests.swift */; };
@@ -14,7 +16,6 @@
 		6DF5480E1C384B39002FE409 /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF5480B1C384B39002FE409 /* ColorHelper.swift */; };
 		6DF5480F1C384B39002FE409 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF5480C1C384B39002FE409 /* Main.storyboard */; };
 		6DF548101C384B39002FE409 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF5480D1C384B39002FE409 /* MainViewController.swift */; };
-		6DF548161C384C0E002FE409 /* PORadarView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF548151C384C0E002FE409 /* PORadarView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +35,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		66396B941D8C48FE0079C50C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				66396B931D8C48FE0079C50C /* PORadarView.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		66396B8E1D8C48DE0079C50C /* PORadarView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = PORadarView.framework; path = "/Users/J.COUDSI/Library/Developer/Xcode/DerivedData/PORadarView-dkvtnffaluwjwoajsuxuhxtveafe/Build/Products/Debug-iphoneos/PORadarView.framework"; sourceTree = "<absolute>"; };
 		6DF547DC1C384AFC002FE409 /* PORadarViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PORadarViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF547DF1C384AFC002FE409 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DF547E61C384AFC002FE409 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -56,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DF548161C384C0E002FE409 /* PORadarView.framework in Frameworks */,
+				66396B921D8C48FE0079C50C /* PORadarView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +96,7 @@
 		6DF547D11C384AA8002FE409 = {
 			isa = PBXGroup;
 			children = (
+				66396B8E1D8C48DE0079C50C /* PORadarView.framework */,
 				6DF548151C384C0E002FE409 /* PORadarView.framework */,
 				6DF547DE1C384AFC002FE409 /* PORadarViewExample */,
 				6DF547F31C384AFC002FE409 /* PORadarViewExampleTests */,
@@ -139,6 +156,7 @@
 				6DF547D81C384AFC002FE409 /* Sources */,
 				6DF547D91C384AFC002FE409 /* Frameworks */,
 				6DF547DA1C384AFC002FE409 /* Resources */,
+				66396B941D8C48FE0079C50C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -348,7 +366,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = PORadarViewExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -392,7 +410,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = PORadarViewExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pexou.PORadarViewExample;
