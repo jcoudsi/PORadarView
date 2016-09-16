@@ -28,14 +28,14 @@ class MainViewController: UIViewController {
 
     }
 
-    override func viewDidAppear(animated: Bool) {
+    override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
 
         self.configureForExample1(self)
     }
 
 
-    @IBAction func configureForExample1(sender: AnyObject) {
+    @IBAction func configureForExample1(_ sender: AnyObject) {
 
         self.radarView.contentCircleColor = ColorHelper.getLightRedColor()
         self.radarView.detectionItemColor = ColorHelper.getMediumRedColor()
@@ -43,7 +43,7 @@ class MainViewController: UIViewController {
         self.radarView.objectUndetectedWithAutoRestartDetection()
     }
 
-    @IBAction func configureForExample2(sender: AnyObject) {
+    @IBAction func configureForExample2(_ sender: AnyObject) {
 
         self.radarView.contentCircleColor = ColorHelper.getMediumOrangeColor()
         self.radarView.detectionItemColor = ColorHelper.getMediumRedColor()
@@ -52,7 +52,7 @@ class MainViewController: UIViewController {
         self.radarView.startDetectionIfNeeded()
     }
 
-    @IBAction func configureForExample3(sender: AnyObject) {
+    @IBAction func configureForExample3(_ sender: AnyObject) {
 
         self.radarView.contentCircleColor = ColorHelper.getMediumGreenColor()
 
