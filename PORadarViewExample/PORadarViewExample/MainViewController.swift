@@ -21,11 +21,19 @@ class MainViewController: UIViewController {
 
         super.viewDidLoad()
 
+
+
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        
         self.radarView = PORadarView(frame: self.radarContainerView.bounds)
         self.radarView.setImage(UIImage(named:"new-item-example")!)
-
+        
         self.radarContainerView.addSubview(self.radarView)
-
+        
+        self.view.layoutIfNeeded()
     }
 
     override func viewDidAppear(_ animated: Bool) {
