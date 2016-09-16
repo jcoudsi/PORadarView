@@ -12,8 +12,6 @@ let π: CGFloat = CGFloat(M_PI)
 
 @IBDesignable public class PORadarView: UIView {
 
-    private var lineCircleStartAngleInDegrees: CGFloat = 0
-    private var lineCircleWidthInDegrees: CGFloat = 30
     private var radius: CGFloat = 0
     private var rectCenter: CGPoint = CGPoint.zero
     private var imageView: UIImageView?
