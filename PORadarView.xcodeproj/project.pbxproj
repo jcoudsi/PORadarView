@@ -147,9 +147,12 @@
 				TargetAttributes = {
 					6DD86C901C346D7A003EDB19 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = WJ3PBH4EEK;
+						LastSwiftMigration = 0800;
 					};
 					6DD86C9A1C346D7A003EDB19 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = WJ3PBH4EEK;
 					};
 				};
 			};
@@ -309,7 +312,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = WJ3PBH4EEK;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -320,6 +325,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -328,6 +334,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = WJ3PBH4EEK;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -337,12 +344,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pexou.PORadarView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
 		6DD86CA91C346D7A003EDB19 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = WJ3PBH4EEK;
 				INFOPLIST_FILE = PORadarViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pexou.PORadarViewTests;
@@ -353,6 +362,7 @@
 		6DD86CAA1C346D7A003EDB19 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = WJ3PBH4EEK;
 				INFOPLIST_FILE = PORadarViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pexou.PORadarViewTests;

@@ -214,13 +214,17 @@
 				TargetAttributes = {
 					6DF547DB1C384AFC002FE409 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = WJ3PBH4EEK;
+						LastSwiftMigration = 0800;
 					};
 					6DF547EF1C384AFC002FE409 = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
 						TestTargetID = 6DF547DB1C384AFC002FE409;
 					};
 					6DF547FA1C384AFC002FE409 = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
 						TestTargetID = 6DF547DB1C384AFC002FE409;
 					};
 				};
@@ -349,6 +353,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = WJ3PBH4EEK;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -374,6 +379,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -399,6 +405,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = WJ3PBH4EEK;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -416,6 +423,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pexou.PORadarViewExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -466,6 +474,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pexou.PORadarViewExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PORadarViewExample.app/PORadarViewExample";
 			};
 			name = Debug;
@@ -508,6 +517,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pexou.PORadarViewExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PORadarViewExample.app/PORadarViewExample";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -557,6 +567,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pexou.PORadarViewExampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = PORadarViewExample;
 				USES_XCTRUNNER = YES;
 			};
@@ -599,6 +610,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pexou.PORadarViewExampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = PORadarViewExample;
 				USES_XCTRUNNER = YES;
 				VALIDATE_PRODUCT = YES;

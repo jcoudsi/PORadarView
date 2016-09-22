@@ -10,7 +10,7 @@ import UIKit
 
 let π: CGFloat = CGFloat(M_PI)
 
-@IBDesignable public class PORadarView: UIView {
+@IBDesignable public class PORadarView: UIView, CAAnimationDelegate {
 
     private var radius: CGFloat = 0
     private var rectCenter: CGPoint = CGPoint.zero
@@ -85,8 +85,8 @@ let π: CGFloat = CGFloat(M_PI)
 
         let detectionItemLayer = CAShapeLayer()
         detectionItemLayer.path = self.createDetectionItemPathAtStartDegreesAngle(0, endDegreesAngle: 30).CGPath
-        detectionItemLayer.frame = CGPathGetBoundingBox(detectionItemLayer.path)
-        detectionItemLayer.bounds = CGPathGetBoundingBox(detectionItemLayer.path)
+        detectionItemLayer.frame = CGPathGetBoundingBox(detectionItemLayer.path!)
+        detectionItemLayer.bounds = CGPathGetBoundingBox(detectionItemLayer.path!)
         detectionItemLayer.fillColor = detectionItemColor.CGColor
         detectionItemLayer.anchorPoint = CGPoint(x: 0, y: 0)
         detectionItemLayer.position = self.rectCenter
@@ -135,11 +135,11 @@ let π: CGFloat = CGFloat(M_PI)
         self.detectionItemShapeLayer.addAnimation(animateRotation, forKey: "animateRadar")
     }
 
-    public override func animationDidStart(anim: CAAnimation) {
+    public func animationDidStart(anim: CAAnimation) {
         self.isDetecting = true
     }
 
-    public override func animationDidStop(anim: CAAnimation, finished flag: Bool) {
+    public func animationDidStop(anim: CAAnimation, finished flag: Bool) {
         self.isDetecting = false
     }
 
