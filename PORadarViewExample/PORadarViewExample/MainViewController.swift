@@ -16,25 +16,22 @@ class MainViewController: UIViewController {
     var radarView: PORadarView!
 
     @IBOutlet weak var radarContainerView: UIView!
-
+    
     override func viewDidLoad() {
-
         super.viewDidLoad()
+        
+        self.view.layoutIfNeeded()
+        
+        self.radarView = PORadarView(frame: self.radarContainerView.bounds)
+        
+        if let image = UIImage(named:"new-item-example") {
+            self.radarView.setImage(image)
+        }
 
-
+        self.radarContainerView.addSubview(self.radarView)
 
     }
     
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-        
-        self.radarView = PORadarView(frame: self.radarContainerView.bounds)
-        self.radarView.setImage(UIImage(named:"new-item-example")!)
-        
-        self.radarContainerView.addSubview(self.radarView)
-        
-        self.view.layoutIfNeeded()
-    }
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
