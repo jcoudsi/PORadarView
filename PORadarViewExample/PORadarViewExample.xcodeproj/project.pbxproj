@@ -64,7 +64,6 @@
 		6DF5480B1C384B39002FE409 /* ColorHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
 		6DF5480C1C384B39002FE409 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		6DF5480D1C384B39002FE409 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		6DF548151C384C0E002FE409 /* PORadarView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PORadarView.framework; path = "../build/Debug-iphoneos/PORadarView.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				66B29F8B1D8C46BB00935ECC /* PORadarView.framework */,
-				6DF548151C384C0E002FE409 /* PORadarView.framework */,
 				6DF547DE1C384AFC002FE409 /* PORadarViewExample */,
 				6DF547F31C384AFC002FE409 /* PORadarViewExampleTests */,
 				6DF547FE1C384AFC002FE409 /* PORadarViewExampleUITests */,
