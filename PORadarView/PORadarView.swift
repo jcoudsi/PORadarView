@@ -102,10 +102,7 @@ let π: CGFloat = CGFloat(M_PI)
     
     open func setImage(_ image: UIImage) {
         
-        guard let imageView: UIImageView = UIImageView(image: image) else {
-            return
-        }
-        
+        let imageView: UIImageView = UIImageView(image: image)
         let frameWidth = self.frame.size.width
         let frameHeight = self.frame.size.height
         let imageWidth =  frameWidth/2
